@@ -15,26 +15,16 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace Calculator
+namespace Calculator.Controls
 {
 	/// <summary>
 	/// An empty page that can be used on its own or navigated to within a Frame.
 	/// </summary>
-	public sealed partial class Mainmenu : Page
+	public sealed partial class CurrencyConversionCalculator : Page
 	{
-		public Mainmenu()
+		public CurrencyConversionCalculator()
 		{
 			this.InitializeComponent();
-		}
-
-		private void exitButton_Click(object sender, RoutedEventArgs e)
-		{
-			System.Environment.Exit(0);
-		}
-
-		private void currencyButton_Click(object sender, RoutedEventArgs e)
-		{
-			this.Frame.Navigate(typeof(CurrencyConversionCalculator));
 		}
 	}
 }
