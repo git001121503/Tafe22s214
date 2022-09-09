@@ -11,7 +11,7 @@
     <Grid Background="LightYellow">
         <StackPanel>
 
-            <StackPanel Height="236" Width="1491" HorizontalAlignment="Center">
+            <StackPanel Height="203" Width="1491" HorizontalAlignment="Center">
                 <Image x:Name="abacusImage" Source="/images/abacus.PNG" HorizontalAlignment="Right" Height="231" Width="458"/>
             </StackPanel>
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10" Padding="10"  >
